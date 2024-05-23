@@ -1,0 +1,120 @@
+html{
+    background-image: url(/IMG/OIP.jpeg)
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+}
+
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+
+nav{
+    position: top;
+    top:110px;
+    right: 0;
+    background-color: #d11c1c;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    border-style:dashed;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #1fc719;
+    text-decoration: underline;
+}
+
+main{
+    padding: 30px;
+    background: #d11c1c;
+    margin: 240px;
+    border-radius: 20px;
+
+}
+
+main:hover{
+    background-color: #c78c19;
+    transition: 2s;
+}
+.videos-favoritos {
+    width: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #070000;
+    margin: auto;
+    text-align: center;
+    
+}
+section{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    transition-duration: 1s;
+    background-color: #d11c1c;
+}
+.monster{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 100px;
+}
+.monster:hover{
+    background-color: rgb(8, 1, 6);
+    transform: scale(1.1);
+    transition: 1.5s;
+    color: white;
+}
+.Rainbow{
+ padding: 20px;
+ margin: 100px;
+ background-color: #000000;
+ color: white;
+}
+.Rainbow:hover{
+    background-color: rgb(43, 226, 159);
+    transform: scale(1.1);
+    transition:1s
+}
+@media (max-width: 768px) {
+    nav  {
+        flex-direction: column;
+    }
+
+    nav  li {
+        margin: 0.5em 0;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        padding: 1em;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
